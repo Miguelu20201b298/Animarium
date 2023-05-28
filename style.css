@@ -1,0 +1,267 @@
+body{
+    font-family: 'Bitter', serif;
+}
+h1{font-family: 'Alfa Slab One', cursive;
+    color: #333333;}
+h3,h2,h5,h6,p{
+    font-family: 'Bitter', serif;
+    color: #333333;
+}
+.caja{
+    width: 100%;
+    height: 100px;
+    background-color: #68B984;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+.imgHeader{
+width: 123px;
+height: 107px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+    color: aliceblue;
+}
+
+nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.CajaPrincipal{
+    padding-top: 80px;
+    background: white;
+    height: 720px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenido-CajaPrincipal{
+    width: 620px;
+    height: 584px;
+    box-shadow: -13px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 50px 0px 100px;
+    box-sizing: border-box;
+    gap: 40px;
+}
+.frase{
+    text-align: center;
+    
+}
+.contenido-CajaPrincipal h1{
+    font-size: 72px;
+}
+.contenido-CajaPrincipal h3{
+    font-size: 32px;
+}
+.contenido-CajaPrincipal p{
+    font-size: 24px;
+}
+.IconosDescargas{
+    display: flex;
+    gap: 40px;
+}
+.IconosDescargas img{
+    width: 233px;
+    height: 69px;
+}
+.ImagenPrincipal{
+    width: 650px;
+    height: 632px;
+}
+
+.imagen-logo{
+    width: 60%;
+}
+
+.SobreNosotros{
+    padding: 130px 10% 5% 10%;
+    background: #68B984;
+    height: 750px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ContenidoNosotros{
+    width: 40%;
+}
+.Titulo-SobreNosotros{
+    font-size: 64px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.SobreNosotros p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.img_sobreNosotros{
+    scale: 1.5;
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+
+.SeccionAdopcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Titulo-Adopta{
+    
+    font-size: 64px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.Adopta{
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+.cardAdopcion img{
+    width: 160px;
+    height: 160px;
+}
+.cardAdopcion button{
+    width: 152px;
+    height: 53px;
+    
+    background: #CFFDE1;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.cardAdopcion button p{
+    width: 87px;
+    height: 27px;
+
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin: auto;
+    color: #333333;
+}
+.cardAdopcion{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 0px 0px 10px;
+    background: #3D5656;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;  
+}
+
+.Adopta-descripcion{
+    text-align: center;
+    width: 216px;
+    font-size: 20;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.Titulo-contactanos
+{
+    font-size: 64px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.Contactanos{
+    padding: 3em 10% 3em 10%;
+    background: #68B984 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;gap: 73px;
+ }
+ .mapa-contenido iframe{
+    width: 616px;
+    height: 566px;
+    background: url(image.png);
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+ }
+ .ContenidoContactanos{
+    display: flex;
+    gap: 87px;
+ }
+ .Input{
+    display: flex;
+    flex-direction: column;
+    
+    height: 64px;
+    width: 80%;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    width: 100%;
+    height: 100%;
+ }
+ .Formulario{
+    width: 700px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #3D5656;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+ }
+ .Formulario h2{
+    width: 153px;
+    height: 44px;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 26px;
+ }
+ .Input label{
+    width: 82px;
+height: 24px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+ }
+ .Input input
+ {
+    width: 100%;
+    height: 40px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+ }
+
+
