@@ -1,5 +1,6 @@
 body{
     font-family: 'Bitter', serif;
+    width: 200vh;
 }
 h1{font-family: 'Alfa Slab One', cursive;
     color: #333333;}
@@ -8,6 +9,8 @@ h3,h2,h5,h6,p{
     color: #333333;
 }
 .caja{
+    z-index: 1;
+    position: fixed;
     width: 100%;
     height: 100px;
     background-color: #68B984;
@@ -19,42 +22,78 @@ h3,h2,h5,h6,p{
     box-sizing: border-box;
 }
 .imgHeader{
-width: 123px;
-height: 107px;
+width: 10em;
+height: 8em;
 }
 nav a{
+    
     text-decoration: none;
     font-size: 16px;
     font-family: 'Alfa Slab One', cursive;
     color: aliceblue;
 }
-
+nav button{
+    background: none;
+  border: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Alfa Slab One', cursive;
+    color: aliceblue;
+}
 nav{
+
     width: 30%;
     display: flex;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 768px){
+    .caja{
+        position: relative;
+        height: 300px;
+        background-color: #68B984;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        gap: 10PX;
+    }
+    .CajaPrincipal{
+        height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .SobreNosotros{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 
 .CajaPrincipal{
-    padding-top: 80px;
+    padding-top: 10em;
     background: white;
-    height: 720px;
+    height: 52em;
     display: flex;
     justify-content: space-evenly;
 }
 
 .contenido-CajaPrincipal{
-    width: 620px;
-    height: 584px;
+    width: 42em;
+    height: 34em;
     box-shadow: -13px 10px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;  
-    padding: 50px 0px 100px;
+    padding: 3em 0px 3em;
     box-sizing: border-box;
-    gap: 40px;
+    gap: 2em;
 }
 .frase{
     text-align: center;
@@ -71,15 +110,15 @@ nav{
 }
 .IconosDescargas{
     display: flex;
-    gap: 40px;
+    gap: 2em;
 }
 .IconosDescargas img{
     width: 233px;
     height: 69px;
 }
 .ImagenPrincipal{
-    width: 650px;
-    height: 632px;
+    width: 40em;
+    height: 40em;
 }
 
 .imagen-logo{
@@ -297,128 +336,5 @@ color: #FFFFFF;
   .pie-pagina a{
     color: #FFFFFF;
     text-decoration: none;
-
   }
-  @media screen and (max-width: 768px) {
-    /* Estilos generales */
-    
-    body {
-      font-size: 16px;
-    }
-    
-    /* Estilos de la caja principal */
-    
-    .CajaPrincipal {
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .contenido-CajaPrincipal {
-      width: 90%;
-      padding: 30px 0;
-    }
-    
-    .contenido-CajaPrincipal h1 {
-      font-size: 48px;
-    }
-    
-    .contenido-CajaPrincipal h3 {
-      font-size: 24px;
-    }
-    
-    .contenido-CajaPrincipal p {
-      font-size: 18px;
-    }
-    
-    /* Estilos de la sección "Sobre Nosotros" */
-    
-    .SobreNosotros {
-      padding: 60px 5% 5% 5%;
-    }
-    
-    .ContenidoNosotros {
-      width: 100%;
-    }
-    
-    .Titulo-SobreNosotros {
-      font-size: 48px;
-    }
-    
-    .SobreNosotros p {
-      font-size: 16px;
-    }
-    
-    /* Estilos de la sección "Adopta" */
-    
-    .Adopta {
-      flex-direction: column;
-      gap: 40px;
-    }
-    
-    .cardAdopcion {
-      width: 80%;
-      height: auto;
-      padding: 50px 0;
-    }
-    
-    .cardAdopcion img {
-      width: 120px;
-      height: 120px;
-    }
-    
-    .cardAdopcion button {
-      width: 140px;
-      height: 40px;
-    }
-    
-    .cardAdopcion button p {
-      font-size: 16px;
-    }
-    
-    .Adopta-descripcion {
-      width: 80%;
-      font-size: 16px;
-    }
-    
-    /* Estilos de la sección "Contáctanos" */
-    
-    .Contactanos {
-      padding: 3em 5% 3em 5%;
-    }
-    
-    .mapa-contenido iframe {
-      width: 100%;
-      height: 400px;
-    }
-    
-    .Formulario {
-      width: 90%;
-      height: auto;
-      padding: 30px 0;
-    }
-    
-    .Formulario h2 {
-      font-size: 24px;
-    }
-    
-    .Input label {
-      font-size: 16px;
-    }
-    
-    .Input input {
-      height: 32px;
-    }
-    
-    /* Estilos del footer */
-    
-    .pie-pagina {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .columna {
-      align-items: center;
-      gap: 10px;
-    }
-  }
+  

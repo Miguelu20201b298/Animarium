@@ -13,23 +13,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bitter&display=swap" rel="stylesheet">
-    </head>
+    
+</head>
 
     <body>
         <header>
-            <div class="caja">
+            <div id="navbar" class="caja">
                 <img class="imgHeader" src="Assets/Images/animariumsinfondo.png">
                 <nav>
-                    <a href="#">Inicio</a>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Adopcion</a>
-                    <a href="#">Contacto</a>
+                    <button onclick="scrollToSection('inicio')">Inicio</button>
+                    <button onclick="scrollToSection('nosotros')">Nosotros</button>
+                    <button onclick="scrollToSection('adopcion')">Adopcion</button>
+                    <button onclick="scrollToSection('contacto')">Contacto</button>
+                    
                     <a href="#">Descarga</a>
                 </nav>
             </div>
         </header>
 
-        <section class="CajaPrincipal">
+        <section id="inicio" class="CajaPrincipal">
                 
                 <div class="contenido-CajaPrincipal">
                     
@@ -50,7 +52,7 @@
                 <img class="ImagenPrincipal"src="Assets/Images/Imagen_Inicio.png" alt="">
         </section>
 
-        <section class="SobreNosotros"> 
+        <section id="nosotros" class="SobreNosotros"> 
             <div class="ContenidoNosotros">
                 <h2 class="Titulo-SobreNosotros">Sobre Nosotros</h2>
                 <p><br>Somos un equipo apasionado por los animales y comprometido con su binestar. Nos esforzamos por crear una plataforma que rbince na experiencia completa de cuidado, adopción y disfrute para lsa mascotas y sus dueños.</p>
@@ -61,7 +63,7 @@
         </section>
 
 
-            <section class="SeccionAdopcion">
+            <section id="adopcion" class="SeccionAdopcion">
                 <h3 class="Titulo-Adopta">Adopta</h3>
                 <div class="Adopta">
                     <div class="cardAdopcion">
@@ -86,7 +88,7 @@
             </section>
 
             
-            <section class="Contactanos">
+            <section id="contacto" class="Contactanos">
                 <h3 class="Titulo-contactanos"> Contactanos</h3>
                 <div class="ContenidoContactanos"> 
                     <div class="mapa-contenido">
@@ -94,7 +96,7 @@
                     </div>
                     <div class="Formulario">
                         <h2>Contacto</h2>
-                        <form action="/my-handling-form-page" method="post">
+                        <form >
                             
                                 <div class="Input">
                                     <label for="name">Nombre:</label>
@@ -112,7 +114,14 @@
                                    <label for="msg">Mensaje:</label>
                                    <textarea id="msg" name="user_message" style="height: 150px;"></textarea>
                                 </div>
-                           
+                                <button style="background: #68B984;
+                                border: none;
+                                padding: 12px;
+                                width: 200px;
+                                  text-decoration: none;
+                                  font-size: 16px;
+                                  font-family: 'Alfa Slab One', cursive;
+                                  color: aliceblue;">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -142,5 +151,5 @@
                   <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
                 </div>
               </footer>
-
+              <script src="Assets/Scripts/script.js"></script>
     </body>
