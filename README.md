@@ -8,6 +8,8 @@
 
 - Sharon
 
+- Jhosep
+
 Segmentos Objetivos:
 
 El segmento objetivo de Animarium se enfoca básicamente en cualquier persona que tenga una mascota o esté interesada en adoptar una. También se trata de aquellos que desean ofrecer los mejores cuidados a sus mascotas, pero que también buscan una experiencia más fácil y accesible para atenderlas en veterinarias. 
