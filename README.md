@@ -1,11 +1,12 @@
-Desarrolladores del Proyecto:
+# Desarrolladores del Proyecto:
 
-•	Ybañez Esquerre, Miguel Angel
+- Ybañez Esquerre, Miguel Angel
 
-•	Ramos Calderón, Giovanni Andrés
+- Ramos Calderón, Giovanni Andrés
 
-•	Portales Ortiz, Diego Alejandro 
+- Portales Ortiz, Diego Alejandro 
 
+- Sharon
 
 Segmentos Objetivos:
 
